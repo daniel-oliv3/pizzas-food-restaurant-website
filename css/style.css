@@ -34,7 +34,97 @@ ol {
 /* variable define */
 :root {
     --primary-color: #FFC222;
+    --secundary-color: #00a149;
+    --white-color: #fff;
+    --text-color: #b0b0b0;
+    --black-color: #1E1D23;
+    --primary-font: 'Roboto', sans-serif;
+    --secundary-font: 'Quicksand', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* Custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secundary-color);
+}
+
+
+/* Custom CSS design */
+
+h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+    text-shadow: 1px 0 6px #000;
+}
+
+h1 span {
+    color: var(--primary-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: var(--secundary-font);
+    color: var(--secundary-color);
+    line-height: 3rem;
+}
+
+h4 {
+    color: var(--secundary-color);
+    font-family: var(--secundary-font);
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: var(--black-color);
+    font-family: var(--secundary-font);
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: var(--text-color);
+    font-family: var(--secundary-font);
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.565rem;
+    color: var(--primary-color);
+}
+
+
 
 
 
