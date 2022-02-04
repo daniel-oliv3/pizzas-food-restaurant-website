@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 960px){
+
+    /**/
+   
+
+    /* */
+
+    /* */
+}
+
+
+@media (max-width: 767px){
+
+    /**/
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+
+    /* Top banner */
+
+    /* Carousel design */
+}
+
+@media (max-width: 330px){
+
+    /**/
+   
+
+    /* */
+
+    /* */
+}
