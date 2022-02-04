@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
 
+a,
+a:hover {
+    text-decoration: none;
+}
 
+a:hover {
+    color: var(--primary-color) !important;
+}
 
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
 
+/* variable define */
+:root {
+    --primary-color: #FFC222;
+}
 
 
 
