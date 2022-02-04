@@ -140,6 +140,63 @@ p {
     color: var(--primary-color);
 }
 
+.wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+
+.text-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/* Header design */
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 0.3s linear;
+}
+
+.navigation-wrap:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Top Banner design */
+/* Our Menu design */
+
+/* Explore Food design */
+/* Testimonial design */
 
 
 
