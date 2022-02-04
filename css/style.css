@@ -182,10 +182,28 @@ p {
     letter-spacing: 1px;
 }
 
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
 
 
 
-
+/*alterar o estilo da barra de navegação na rolagem*/
+.navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: var(--white-color);
+    top: 0;
+    left: 0;
+    width: 100%; /*largura*/
+    box-shadow: 0 0.125rem 175rem 0 rgb(0, 0, 0);
+}
 
 
 
