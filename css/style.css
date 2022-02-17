@@ -109,10 +109,11 @@ h5 {
 }
 
 p {
+    font-size: 1rem;
     color: var(--text-color);
     font-family: var(--secundary-font);
-    font-size: 1.75rem;
     font-weight: 400;
+    line-height: 1.75rem;
     letter-spacing: 1px;
 }
 
@@ -120,9 +121,9 @@ p {
 .main-btn {
     display: inline-block;
     padding: 0.625rem 1.875rem;
-    line-height: 1.565rem;
+    line-height: 1.5625rem;
     background-color: var(--primary-color);
-    border: 0.875rem solid var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
     color: var(--black-color);
     font-size: 0.9375rem;
     font-weight: 600;
