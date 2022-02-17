@@ -217,6 +217,21 @@ p {
 
 
 /* Top Banner design */
+.top-banner {
+    width: 100%;
+    background: url('../img/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+
+
+
+
+
+
+
+
 /* Our Menu design */
 
 /* Explore Food design */
