@@ -273,6 +273,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: var(--black-color);
+    text-decoration: none; /*update*/
 }
 
 .card:hover .cat-title a {
@@ -315,6 +316,10 @@ p {
     font-size: 1.25rem;
     font-family: "Font Awesome 5 Free";
     content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
 }
 
 /* Explore Food design */
