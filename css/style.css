@@ -210,9 +210,10 @@ p {
     color: var(--black-color);
 }
 
-
-
-
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active { 
+    color: var(--primary-color);
+}
 
 
 /* Top Banner design */
