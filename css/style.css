@@ -351,6 +351,17 @@ p {
 
 
 /* Testimonial design */
+.testimonial-section {
+    background: var(--secundary-color);
+}
+
+
+.testimonial-section h2 {
+    color: var(--white-color);
+}
+
+
+
 
 
 
