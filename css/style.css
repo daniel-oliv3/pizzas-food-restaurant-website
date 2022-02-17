@@ -323,6 +323,33 @@ p {
 }
 
 /* Explore Food design */
+.explore-food .card {
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+
+.explore-food .card img {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.explore-food .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #eee;
+}
+
+.explore-food p {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
 /* Testimonial design */
 
 
