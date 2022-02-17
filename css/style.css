@@ -269,6 +269,10 @@ p {
 
 
     /*banner design*/
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
     /*carousel design*/
 
     /*footer link*/
@@ -277,7 +281,7 @@ p {
 
 @media (max-width: 767px){
 
-    /**/
+    /*custom css*/
     h1 {
         font-size: 2.8rem;
     }
@@ -288,6 +292,9 @@ p {
     }
 
     /* Top banner */
+    .top-banner {
+        padding: 10.375rem 0 9.375rem;
+    }
 
     /* Carousel design */
 }
