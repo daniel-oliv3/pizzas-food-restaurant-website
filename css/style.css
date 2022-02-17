@@ -70,7 +70,7 @@ body {
 /* Custom CSS design */
 
 h1 {
-    font-size: 28px;
+    font-size: 58px;
     font-weight: 900;
     margin-bottom: 1rem;
     color: var(--white-color);
@@ -265,7 +265,7 @@ p {
     transform: translateX(-50%) translateY(-50%) scale(1);
 } 
 
-.our-menu .cat-title {
+.our-menu .cat-title a{
     text-align: center;
     font-size: 0.8125rem;
     position: relative;
@@ -275,7 +275,9 @@ p {
     color: var(--black-color);
 }
 
-
+.card:hover .cat-title a {
+    color: var(--primary-color);
+}
 
 
 /* Explore Food design */
