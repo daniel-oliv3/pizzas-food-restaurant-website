@@ -251,7 +251,31 @@ p {
     height: 100%;
     border-radius: 50%;
     border: 2px dotted var(--secundary-color);
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    background: var(--primary-color);
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
 }
+
+
+.card:hover .link_category_product::before{
+    transform: translateX(-50%) translateY(-50%) scale(1);
+} 
+
+.our-menu .cat-title {
+    text-align: center;
+    font-size: 0.8125rem;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+
 
 
 /* Explore Food design */
