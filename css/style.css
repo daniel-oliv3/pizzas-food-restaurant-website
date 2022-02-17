@@ -224,6 +224,9 @@ p {
     padding: 16.875rem 0 9.375rem;
 }
 
+.top-banner p {
+    color: var(--white-color);
+}
 
 
 
