@@ -360,7 +360,19 @@ p {
     color: var(--white-color);
 }
 
+.testimonial-section .carousel-item {
+    margin-top: 3rem;
+    padding: 10rem 3.152rem;
+    background-color: var(--black-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
 
+.testimonial-section .carousel-caption img {
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
 
 
 
