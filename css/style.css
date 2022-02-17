@@ -169,7 +169,7 @@ p {
     transition: all 0.3s linear;
 }
 
-.navigation-wrap:focus {
+.navbar-toggle:focus {
     outline: unset;
     border: unset;
     box-shadow: none;
@@ -203,7 +203,7 @@ p {
     top: 0;
     left: 0;
     width: 100%; /*largura*/
-    box-shadow: 0 0.125rem 175rem 0 rgb(0, 0, 0);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all 0.15s ease-in-out 0s;
 }
 
@@ -245,14 +245,33 @@ p {
 
 
 /* Responsive */
-@media (max-width: 960px){
+@media (max-width: 991px){
 
-    /**/
-   
+    /*custom classes*/
+   .text-content {
+       width: 100%;
+   }
 
-    /* */
+    /*navbar brand*/
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
 
-    /* */
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+        color: var(--black-color);
+    }
+
+
+    /*banner design*/
+    /*carousel design*/
+
+    /*footer link*/
 }
 
 
