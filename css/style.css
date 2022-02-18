@@ -433,6 +433,38 @@ p {
 }
 
 
+.newsletter .main-btn {
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    border-radius: 0;
+    background-color: var(--white-color);
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+
+.newsletter:hover .form-control {
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--black-color);
+}
+
+.newsletter:hover .main-btn {
+    background: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+}
+
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+
+
 /* ======= Responsive ======= */
 @media (max-width: 991px){
 
@@ -463,9 +495,15 @@ p {
     }
 
     /*carousel design*/
-    
+    .testimonial-section .carousel-caption p {
+        padding: 0;
+    }
 
     /*footer link*/
+    .footerc .footer-social a i {
+        padding: 0 0.75rem;
+    }
+
 }
 
 
