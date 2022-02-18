@@ -374,11 +374,39 @@ p {
     padding: 0.3125rem;
 }
 
+.testimonial-section .carousel-caption p {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-weight: 300;
+    color: var(--white-color);
+    padding: 0 11% 0.625rem;
+}
+
+.testimonial-section .carousel-indicators {
+    bottom: -2.8125rem;
+}
+
+
+.testimonial-section .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
 
 
 
 
-/* Responsive */
+
+
+
+
+
+
+/* ======= Responsive ======= */
 @media (max-width: 991px){
 
     /*custom classes*/
