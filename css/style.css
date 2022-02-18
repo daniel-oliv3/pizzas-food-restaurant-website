@@ -106,6 +106,7 @@ h5 {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    color: var(--white-color); /*up*/
 }
 
 p {
@@ -154,7 +155,7 @@ p {
 
 
 
-/* Header design */
+/* ======= Header design ======= */
 .navigation-wrap {
     position: fixed;
     width: 100%;
@@ -217,7 +218,7 @@ p {
 }
 
 
-/* Top Banner design */
+/* ======= Top Banner design ======= */
 .top-banner {
     width: 100%;
     background: url('../img/bg-1.jpg') no-repeat center;
@@ -231,7 +232,7 @@ p {
 
 
 
-/* Our Menu design */
+/* ======= Our Menu design ======= */
 .our-menu .card {
     border: none;
 }
@@ -281,7 +282,7 @@ p {
 }
 
 
-/* About section design */
+/* ======= About section design ======= */
 .about-section {
     background: var(--black-color);
 }
@@ -296,7 +297,7 @@ p {
 }
 
 
-/* Food type section design */
+/* ======= Food type section design ======= */
 .food-type {
     padding-top: 3.25rem;
 }
@@ -322,7 +323,7 @@ p {
     font-weight: 900;
 }
 
-/* Explore Food design */
+/* ======= Explore Food design ======= */
 .explore-food .card {
     border: none;
     background-color: transparent;
@@ -350,7 +351,7 @@ p {
 }
 
 
-/* Testimonial design */
+/* ======= Testimonial design ======= */
 .testimonial-section {
     background: var(--secundary-color);
 }
@@ -402,9 +403,30 @@ p {
 }
 
 
+/* ======= Footer design ======= */
+.footerc {
+    background: var(--black-color);
+}
 
+.footerc .footer-link {
+    font-size: 1rem;
+    color: var(--black-color);
+    padding: 0 1.875rem;
+}
 
+.footerc .footer-link:hover {
+    color: var(--white-color);
+}
 
+.footerc .footer-social a i {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+
+.footerc .footer-social a:hover {
+    color: var(--primary-color);
+}
 
 
 
