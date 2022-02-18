@@ -408,15 +408,6 @@ p {
     background: var(--black-color);
 }
 
-.footerc .footer-link {
-    font-size: 1rem;
-    color: var(--black-color);
-    padding: 0 1.875rem;
-}
-
-.footerc .footer-link:hover {
-    color: var(--white-color);
-}
 
 .footerc .footer-social a i {
     font-size: 1.5rem;
@@ -424,10 +415,22 @@ p {
     padding: 0 1rem;
 }
 
-.footerc .footer-social a:hover {
+.footerc .footer-social a:hover i{
     color: var(--primary-color);
 }
 
+/* Form Control */
+.newsletter .form-control {
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
 
 
 /* ======= Responsive ======= */
